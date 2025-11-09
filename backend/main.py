@@ -2,6 +2,9 @@
 MoleculeX - AI-Driven Pharmaceutical Insight Discovery Platform
 Main FastAPI Application
 """
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
+
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -105,15 +108,22 @@ async def websocket_endpoint(websocket: WebSocket, job_id: str):
 
 @app.get("/api/reports/{filename}")
 async def get_report(filename: str):
-    """Serve generated PDF reports"""
-    file_path = os.path.join("data/reports", filename)
-    if not os.path.exists(file_path):
+    """Serve generated reports (PDF or text). Looks in project_root/data/reports and backend/data/reports."""
+    # Determine probable locations
+    backend_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(backend_dir)
+    candidates = [
+        os.path.join(project_root, "data", "reports", filename),
+        os.path.join("data", "reports", filename),
+        os.path.join(backend_dir, "data", "reports", filename),
+    ]
+    file_path = next((p for p in candidates if os.path.exists(p)), None)
+    if not file_path:
         raise HTTPException(status_code=404, detail="Report not found")
-    return FileResponse(
-        file_path,
-        media_type="application/pdf",
-        filename=filename
-    )
+    # Infer media type from extension
+    ext = os.path.splitext(file_path)[1].lower()
+    media_type = "application/pdf" if ext == ".pdf" else "text/plain"
+    return FileResponse(file_path, media_type=media_type, filename=filename)
 
 
 if __name__ == "__main__":

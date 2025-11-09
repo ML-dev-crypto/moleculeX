@@ -1,29 +1,27 @@
 """
-Semantic search powered by Google Gemini API (google-genai SDK)
+Semantic search powered by Google Gemini API
 """
 import os
 import json
 import time
 from typing import List, Dict, Any, Tuple
-from google import genai
+import google.generativeai as genai
 
 
 class SemanticSearchEngine:
     """AI-powered semantic search using Gemini"""
     
     def __init__(self):
-        # Support both GEMINI_API_KEY and GOOGLE_API_KEY env names
-        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-        self.model_name = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
+        api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
-            self.client = genai.Client(api_key=api_key)
+            genai.configure(api_key=api_key)
+            self.model = genai.GenerativeModel('gemini-2.0-flash-exp')
             self.last_call_time = 0
             self.min_call_interval = 1.0  # Minimum 1 second between calls
             print("✅ Semantic search initialized (Gemini-powered)")
             self.use_ai = True
         else:
-            print("⚠️ GEMINI_API_KEY/GOOGLE_API_KEY not found, using basic mode")
-            self.client = None
+            print("⚠️ GEMINI_API_KEY not found, using basic mode")
             self.use_ai = False
     
     def _rate_limit(self):
@@ -33,28 +31,6 @@ class SemanticSearchEngine:
             if elapsed < self.min_call_interval:
                 time.sleep(self.min_call_interval - elapsed)
             self.last_call_time = time.time()
-
-    def _extract_indices(self, text: str) -> List[int]:
-        """Extract a JSON array of integers from model text output robustly."""
-        if not text:
-            return []
-        s = text.strip()
-        # Remove markdown code fences if present
-        if s.startswith("```"):
-            s = s.strip("`\n ")
-            # If language hint is present, drop first line
-            if "\n" in s:
-                s = s.split("\n", 1)[1]
-        # Find first [ and last ] to extract JSON array
-        start = s.find('[')
-        end = s.rfind(']')
-        if start != -1 and end != -1 and end > start:
-            s = s[start:end+1]
-        try:
-            arr = json.loads(s)
-            return [int(i) for i in arr if isinstance(i, (int, float))]
-        except Exception:
-            return []
     
     def re_rank_clinical_trials(self, query: str, trials: List[Any]) -> List[Any]:
         """Re-rank clinical trials using Gemini AI"""
@@ -87,10 +63,10 @@ Return ONLY a JSON array of indices in order of relevance, like: [2, 0, 5, 1, ..
 
             self._rate_limit()  # Rate limit protection
             response = self.client.models.generate_content(
-                model=self.model_name,
+                model=self.model,
                 contents=prompt
             )
-            ranked_indices = self._extract_indices(getattr(response, 'text', ''))
+            ranked_indices = json.loads(response.text.strip())
             
             # Reorder trials based on AI ranking
             ranked_trials = [trials[i] for i in ranked_indices if i < len(trials)]
@@ -130,10 +106,10 @@ Return ONLY a JSON array of indices in order of relevance, like: [1, 3, 0, 2, ..
 
             self._rate_limit()  # Rate limit protection
             response = self.client.models.generate_content(
-                model=self.model_name,
+                model=self.model,
                 contents=prompt
             )
-            ranked_indices = self._extract_indices(getattr(response, 'text', ''))
+            ranked_indices = json.loads(response.text.strip())
             
             ranked_patents = [patents[i] for i in ranked_indices if i < len(patents)]
             remaining = [p for i, p in enumerate(patents) if i not in ranked_indices]
@@ -171,10 +147,10 @@ Return ONLY a JSON array of indices in order of relevance, like: [4, 1, 0, 3, ..
 
             self._rate_limit()  # Rate limit protection
             response = self.client.models.generate_content(
-                model=self.model_name,
+                model=self.model,
                 contents=prompt
             )
-            ranked_indices = self._extract_indices(getattr(response, 'text', ''))
+            ranked_indices = json.loads(response.text.strip())
             
             ranked_lit = [literature[i] for i in ranked_indices if i < len(literature)]
             remaining = [l for i, l in enumerate(literature) if i not in ranked_indices]
@@ -216,18 +192,10 @@ On a scale of 0.0-1.0, how relevant and comprehensive is this data? Return ONLY 
 
                 self._rate_limit()  # Rate limit protection
                 response = self.client.models.generate_content(
-                    model=self.model_name,
+                    model=self.model,
                     contents=prompt
                 )
-                # Extract first float-like token
-                txt = (getattr(response, 'text', '') or '').strip()
-                # Try to parse directly, else scan for a number
-                try:
-                    ai_score = float(txt)
-                except Exception:
-                    import re
-                    m = re.search(r"([01](?:\.\d+)?)", txt)
-                    ai_score = float(m.group(1)) if m else base_score
+                ai_score = float(response.text.strip())
                 # Blend base score with AI score
                 final_score = (base_score + ai_score) / 2
                 

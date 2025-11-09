@@ -1,0 +1,244 @@
+{
+  "job_id": "a056511b-285a-4dff-9039-483f04d18d95",
+  "query": "Find unmet medical needs in oncology with recent patent activity",
+  "status": "completed",
+  "executive_summary": "Analysis of recent patent activity in oncology reveals unmet medical needs, particularly within the areas of PD-1 antibody formulations and CAR-T cell therapies. Despite a lack of ongoing clinical trials, significant intellectual property investment suggests considerable market potential and ongoing research interest in these areas. Further investigation is required to fully understand the competitive landscape and specific clinical applications representing the most promising investment opportunities.",
+  "key_findings": [
+    "Analysis Confidence: Medium (1/100) - Based on 0 trials, 8 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Patent Landscape: 8 relevant patents identified, 0 currently active"
+  ],
+  "clinical_trials": [],
+  "patents": [
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10751349B2",
+      "title": "CAR-T cell therapies for hematologic malignancies",
+      "assignee": "Novartis AG",
+      "filing_date": "2020-08-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10751349B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.3,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11129822B2",
+      "title": "BRAF and MEK inhibitor combinations for melanoma treatment",
+      "assignee": "Merck & Co.",
+      "filing_date": "2021-09-28",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11129822B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11098065B2",
+      "title": "CFTR modulator combinations for cystic fibrosis",
+      "assignee": "Vertex Pharmaceuticals",
+      "filing_date": "2021-08-24",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11098065B2",
+      "retrieved_at": "2025-11-09T16:04:02.958301",
+      "match_score": 0.1,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Targeting autophagy in cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC5975367",
+      "snippet": "Autophagy is a mechanism by which cellular material is delivered to lysosomes for degradation, leading to the basal turnover of cell components and providing energy and macromolecular precursors. Autophagy has opposing, context-dependent roles in cancer, and interventions to both stimulate and inhib...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Triple-negative breast cancer: challenges and opportunities of a heterogeneous disease.",
+      "url": "https://europepmc.org/article/PMC/PMC5461122",
+      "snippet": "Chemotherapy is the primary established systemic treatment for patients with triple-negative breast cancer (TNBC) in both the early and advanced-stages of the disease. The lack of targeted therapies and the poor prognosis of patients with TNBC have fostered a major effort to discover actionable mole...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Adoptive cell transfer as personalized immunotherapy for human cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC6295668",
+      "snippet": "Adoptive cell therapy (ACT) is a highly personalized cancer therapy that involves administration to the cancer-bearing host of immune cells with direct anticancer activity. ACT using naturally occurring tumor-reactive lymphocytes has mediated durable, complete regressions in patients with melanoma, ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high CD8+/regulatory T cell ratio are associated with favorable prognosis in ovarian cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC1311741",
+      "snippet": "In a recent report, [Zhang et al. (2003) N. Engl. J. Med. 348, 203-213], the presence of CD3+ tumor-infiltrating lymphocytes (TILs) was found to correlate with improved survival in epithelial ovarian cancer. We performed immunohistochemical analysis for TILs and cancer testis antigens in 117 cases o...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Molecular and genetic properties of tumors associated with local immune cytolytic activity.",
+      "url": "https://europepmc.org/article/PMC/PMC4856474",
+      "snippet": "How the genomic landscape of a tumor shapes and is shaped by anti-tumor immunity has not been systematically explored. Using large-scale genomic data sets of solid tissue tumor biopsies, we quantified the cytolytic activity of the local immune infiltrate and identified associated properties across 1...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Personalizing the treatment of women with early breast cancer: highlights of the St Gallen International Expert Consensus on the Primary Therapy of...",
+      "url": "https://europepmc.org/article/PMC/PMC3755334",
+      "snippet": "The 13th St Gallen International Breast Cancer Conference (2013) Expert Panel reviewed and endorsed substantial new evidence on aspects of the local and regional therapies for early breast cancer, supporting less extensive surgery to the axilla and shorter durations of radiation therapy. It refined ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Human papillomavirus and rising oropharyngeal cancer incidence in the United States.",
+      "url": "https://europepmc.org/article/PMC/PMC3221528",
+      "snippet": "<h4>Purpose</h4>Recent increases in incidence and survival of oropharyngeal cancers in the United States have been attributed to human papillomavirus (HPV) infection, but empirical evidence is lacking.<h4>Patients and methods</h4>HPV status was determined for all 271 oropharyngeal cancers (1984-2004...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Photodynamic therapy of cancer: an update.",
+      "url": "https://europepmc.org/article/PMC/PMC3209659",
+      "snippet": "Photodynamic therapy (PDT) is a clinically approved, minimally invasive therapeutic procedure that can exert a selective cytotoxic activity toward malignant cells. The procedure involves administration of a photosensitizing agent followed by irradiation at a wavelength corresponding to an absorbance...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Photodynamic therapy.",
+      "url": "https://europepmc.org/article/PMC/PMC4592754",
+      "snippet": "Photodynamic therapy involves administration of a tumor-localizing photosensitizing agent, which may require metabolic synthesis (i.e., a prodrug), followed by activation of the agent by light of a specific wavelength. This therapy results in a sequence of photochemical and photobiologic processes t...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Diagnosis and management of AML in adults: 2017 ELN recommendations from an international expert panel.",
+      "url": "https://europepmc.org/article/PMC/PMC5291965",
+      "snippet": "The first edition of the European LeukemiaNet (ELN) recommendations for diagnosis and management of acute myeloid leukemia (AML) in adults, published in 2010, has found broad acceptance by physicians and investigators caring for patients with AML. Recent advances, for example, in the discovery of th...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Cancer genome landscapes.",
+      "url": "https://europepmc.org/article/PMC/PMC3749880",
+      "snippet": "Over the past decade, comprehensive sequencing efforts have revealed the genomic landscapes of common forms of human cancer. For most cancer types, this landscape consists of a small number of \"mountains\" (genes altered in a high percentage of tumors) and a much larger number of \"hills\" (genes alter...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Improved survival with ipilimumab in patients with metastatic melanoma.",
+      "url": "https://europepmc.org/article/PMC/PMC3549297",
+      "snippet": "<h4>Background</h4>An improvement in overall survival among patients with metastatic melanoma has been an elusive goal. In this phase 3 study, ipilimumab--which blocks cytotoxic T-lymphocyte-associated antigen 4 to potentiate an antitumor T-cell response--administered with or without a glycoprotein ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.182436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territori...",
+      "url": "https://europepmc.org/article/PMC/PMC6227754",
+      "snippet": "<h4>Background</h4>The Global Burden of Diseases, Injuries, and Risk Factors Study 2017 (GBD 2017) includes a comprehensive assessment of incidence, prevalence, and years lived with disability (YLDs) for 354 causes in 195 countries and territories from 1990 to 2017. Previous GBD studies have shown h...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980-2017: a systematic analysi...",
+      "url": "https://europepmc.org/article/PMC/PMC6227606",
+      "snippet": "<h4>Background</h4>Global development goals increasingly rely on country-specific estimates for benchmarking a nation's progress. To meet this need, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2016 estimated global, regional, national, and, for selected locations, subnation...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "2016 European Guidelines on cardiovascular disease prevention in clinical practice: The Sixth Joint Task Force of the European Society of Cardiolog...",
+      "url": "https://europepmc.org/article/PMC/PMC4986030",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:04:05.183436",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.72,
+  "confidence_level": "Medium",
+  "report_url": "/api/reports/job_a056511b-285a-4dff-9039-483f04d18d95.pdf",
+  "created_at": "2025-11-09T10:33:54.015255",
+  "completed_at": "2025-11-09T10:34:19.742618"
+}

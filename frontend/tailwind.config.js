@@ -18,6 +18,8 @@ export default {
           600: '#4347E0',
           700: '#3337B8',
         },
+        'neon-green': '#DDFE9A',
+        'soft-blue': '#EEF3F8',
         // Apple-inspired palette
         apple: {
           white: '#ffffff',

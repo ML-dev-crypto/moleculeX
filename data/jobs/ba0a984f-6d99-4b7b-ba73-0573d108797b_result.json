@@ -1,0 +1,155 @@
+{
+  "job_id": "ba0a984f-6d99-4b7b-ba73-0573d108797b",
+  "query": "Which respiratory diseases show low competition but high patient burden in India?",
+  "status": "completed",
+  "executive_summary": "Analysis of 'Which respiratory diseases show low competition but high patient burden in India?' reveals 0 relevant clinical trials, with 0 currently active or recruiting. The competitive landscape shows unknown competition in India. Patent analysis identified 0 relevant patents, and web intelligence gathered 20 supporting data points. Patient burden indicators suggest substantial unmet medical need in this therapeutic area.",
+  "key_findings": [
+    "Analysis Confidence: High (1/100) - Based on 0 trials, 0 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Geographic Focus: Analysis concentrated on India market dynamics"
+  ],
+  "clinical_trials": [],
+  "patents": [],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Stud...",
+      "url": "https://europepmc.org/article/PMC/PMC7567026",
+      "snippet": "<h4>Background</h4>In an era of shifting global agendas and expanded emphasis on non-communicable diseases and injuries along with communicable diseases, sound evidence on trends by cause at the national level is essential. The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) provid...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territori...",
+      "url": "https://europepmc.org/article/PMC/PMC6227754",
+      "snippet": "<h4>Background</h4>The Global Burden of Diseases, Injuries, and Risk Factors Study 2017 (GBD 2017) includes a comprehensive assessment of incidence, prevalence, and years lived with disability (YLDs) for 354 causes in 195 countries and territories from 1990 to 2017. Previous GBD studies have shown h...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990-2016: a...",
+      "url": "https://europepmc.org/article/PMC/PMC5605509",
+      "snippet": "<h4>Background</h4>As mortality rates decline, life expectancy increases, and populations age, non-fatal outcomes of diseases and injuries are becoming a larger component of the global burden of disease. The Global Burden of Diseases, Injuries, and Risk Factors Study 2016 (GBD 2016) provides a compr...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A comparative risk assessment of burden of disease and injury attributable to 67 risk factors and risk factor clusters in 21 regions, 1990-2010: a ...",
+      "url": "https://europepmc.org/article/PMC/PMC4156511",
+      "snippet": "<h4>Background</h4>Quantification of the disease burden caused by different risks informs prevention by providing an account of health loss different to that provided by a disease-by-disease analysis. No complete revision of global disease burden caused by risk factors has been done since a comparat...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Projections of global mortality and burden of disease from 2002 to 2030.",
+      "url": "https://europepmc.org/article/PMC/PMC1664601",
+      "snippet": "<h4>Background</h4>Global and regional projections of mortality and burden of disease by cause for the years 2000, 2010, and 2030 were published by Murray and Lopez in 1996 as part of the Global Burden of Disease project. These projections, which are based on 1990 data, continue to be widely quoted,...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980-2017: a systematic analysi...",
+      "url": "https://europepmc.org/article/PMC/PMC6227606",
+      "snippet": "<h4>Background</h4>Global development goals increasingly rely on country-specific estimates for benchmarking a nation's progress. To meet this need, the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2016 estimated global, regional, national, and, for selected locations, subnation...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980-2015: a systematic ...",
+      "url": "https://europepmc.org/article/PMC/PMC5388903",
+      "snippet": "<h4>Background</h4>Improving survival and extending the longevity of life for all populations requires timely, robust evidence on local mortality levels and trends. The Global Burden of Disease 2015 Study (GBD 2015) provides a comprehensive assessment of all-cause and cause-specific mortality for 24...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national age-sex specific mortality for 264 causes of death, 1980-2016: a systematic analysis for the Global Burden of Diseas...",
+      "url": "https://europepmc.org/article/PMC/PMC5605883",
+      "snippet": "<h4>Background</h4>Monitoring levels and trends in premature mortality is crucial to understanding how societies can address prominent sources of early death. The Global Burden of Disease 2016 Study (GBD 2016) provides a comprehensive assessment of cause-specific mortality for 264 causes in 195 loca...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.772570",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990-2019: Update From the GBD 2019 Study.",
+      "url": "https://europepmc.org/article/PMC/PMC7755038",
+      "snippet": "Cardiovascular diseases (CVDs), principally ischemic heart disease (IHD) and stroke, are the leading cause of global mortality and a major contributor to disability. This paper reviews the magnitude of total CVD burden, including 13 underlying causes of cardiovascular death and 9 related risk factor...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019.",
+      "url": "https://europepmc.org/article/PMC/PMC7566194",
+      "snippet": "<h4>Background</h4>Rigorous analysis of levels and trends in exposure to leading risk factors and quantification of their effect on human health are important to identify where public health is making progress and in which cases current efforts are inadequate. The Global Burden of Diseases, Injuries...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national burden of stroke and its risk factors, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019.",
+      "url": "https://europepmc.org/article/PMC/PMC8443449",
+      "snippet": "<h4>Background</h4>Regularly updated data on stroke and its pathological types, including data on their incidence, prevalence, mortality, disability, risk factors, and epidemiological trends, are important for evidence-based stroke care planning and resource allocation. The Global Burden of Diseases...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Heart Disease and Stroke Statistics-2017 Update: A Report From the American Heart Association.",
+      "url": "https://europepmc.org/article/PMC/PMC5408160",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Heart disease and stroke statistics--2014 update: a report from the American Heart Association.",
+      "url": "https://europepmc.org/article/PMC/PMC5408159",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Heart disease and stroke statistics--2013 update: a report from the American Heart Association.",
+      "url": "https://europepmc.org/article/PMC/PMC5408511",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.771563",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Heart disease and stroke statistics--2011 update: a report from the American Heart Association.",
+      "url": "https://europepmc.org/article/PMC/PMC4418670",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:56:53.772570",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.85,
+  "confidence_level": "High",
+  "report_url": "/api/reports/job_ba0a984f-6d99-4b7b-ba73-0573d108797b.pdf",
+  "created_at": "2025-11-09T10:26:33.628492",
+  "completed_at": "2025-11-09T10:27:21.994664"
+}

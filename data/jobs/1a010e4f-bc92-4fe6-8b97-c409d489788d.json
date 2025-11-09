@@ -1,0 +1,38 @@
+{
+  "job_id": "1a010e4f-bc92-4fe6-8b97-c409d489788d",
+  "query": "What are the emerging opportunities in cardiovascular drug development in Asia?",
+  "status": "completed",
+  "agents": [
+    {
+      "name": "Master Agent",
+      "status": "completed",
+      "result_count": 0,
+      "start_time": "2025-11-09T09:35:19.095922",
+      "end_time": "2025-11-09T09:35:39.137872"
+    },
+    {
+      "name": "Clinical Trials Agent",
+      "status": "completed",
+      "result_count": 0,
+      "start_time": "2025-11-09T09:35:19.710504",
+      "end_time": "2025-11-09T09:35:28.456943"
+    },
+    {
+      "name": "Patent Agent",
+      "status": "completed",
+      "result_count": 6,
+      "start_time": "2025-11-09T09:35:19.746042",
+      "end_time": "2025-11-09T09:35:23.137888"
+    },
+    {
+      "name": "Web Intel Agent",
+      "status": "completed",
+      "result_count": 20,
+      "start_time": "2025-11-09T09:35:19.781160",
+      "end_time": "2025-11-09T09:35:25.067747"
+    }
+  ],
+  "progress": 100,
+  "created_at": "2025-11-09T09:35:18.986423",
+  "updated_at": "2025-11-09T09:35:39.137872"
+}

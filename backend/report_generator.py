@@ -10,14 +10,30 @@ from typing import Dict, Any
 class ReportGenerator:
     """Generates PDF reports from analysis results"""
     
-    def __init__(self, template_dir: str = "templates", output_dir: str = "data/reports"):
-        self.template_dir = template_dir
-        self.output_dir = output_dir
-        os.makedirs(output_dir, exist_ok=True)
+    def __init__(self, template_dir: str = "templates", output_dir: str = None):
+        # Convert relative paths to absolute paths
+        base_dir = os.path.dirname(os.path.abspath(__file__))  # .../backend
+        project_root = os.path.dirname(base_dir)
+        # Templates live under backend/templates by default
+        self.template_dir = (
+            os.path.join(base_dir, template_dir)
+            if not os.path.isabs(template_dir)
+            else template_dir
+        )
+        # Reports should be served by main.py from project_root/data/reports
+        reports_dir_env = os.getenv("REPORTS_DIR")
+        default_reports_dir = os.path.join(project_root, "data", "reports")
+        chosen_output = reports_dir_env or output_dir or default_reports_dir
+        self.output_dir = (
+            os.path.join(project_root, chosen_output)
+            if not os.path.isabs(chosen_output)
+            else chosen_output
+        )
+        os.makedirs(self.output_dir, exist_ok=True)
         
         # Setup Jinja2 environment
         self.env = Environment(
-            loader=FileSystemLoader(template_dir),
+            loader=FileSystemLoader(self.template_dir),
             autoescape=True
         )
     
@@ -57,15 +73,31 @@ class ReportGenerator:
                     raise Exception("PDF generation failed with xhtml2pdf")
                 
                 print(f"✅ Report generated with xhtml2pdf: {pdf_path}")
-            except Exception as e:
-                print(f"⚠️ xhtml2pdf failed: {e}, generating text fallback")
-                # Fallback to text if PDF fails
+                return pdf_path
+            except ImportError as e:
+                print(f"⚠️ xhtml2pdf not available: {e}")
+                print(f"💡 Install with: pip install xhtml2pdf")
                 return await self._generate_fallback_report(job_id, query, analysis)
-            
-            return pdf_path
+            except Exception as e:
+                print(f"⚠️ xhtml2pdf failed: {e}")
+                # Try alternative: WeasyPrint
+                try:
+                    import weasyprint
+                    weasyprint.HTML(string=html_content).write_pdf(pdf_path)
+                    print(f"✅ Report generated with WeasyPrint: {pdf_path}")
+                    return pdf_path
+                except ImportError:
+                    print(f"⚠️ WeasyPrint not available")
+                    print(f"💡 Install with: pip install weasyprint")
+                    return await self._generate_fallback_report(job_id, query, analysis)
+                except Exception as e2:
+                    print(f"⚠️ WeasyPrint failed: {e2}, generating text fallback")
+                    return await self._generate_fallback_report(job_id, query, analysis)
             
         except Exception as e:
-            print(f"❌ Error generating report: {e}")
+            print(f"❌ Error generating report: {type(e).__name__}: {str(e)}")
+            import traceback
+            traceback.print_exc()
             # Create a simple text-based fallback
             return await self._generate_fallback_report(job_id, query, analysis)
     

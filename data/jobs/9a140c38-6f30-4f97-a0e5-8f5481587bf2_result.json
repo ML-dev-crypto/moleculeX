@@ -1,0 +1,211 @@
+{
+  "job_id": "9a140c38-6f30-4f97-a0e5-8f5481587bf2",
+  "query": "Find unmet medical needs in oncology with recent patent activity",
+  "status": "completed",
+  "executive_summary": "Analysis of 'Find unmet medical needs in oncology with recent patent activity' reveals 0 relevant clinical trials, with 0 currently active or recruiting. The competitive landscape shows unknown competition in None. Patent analysis identified 5 relevant patents, and web intelligence gathered 20 supporting data points. ",
+  "key_findings": [
+    "Analysis Confidence: High (1/100) - Based on 0 trials, 5 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Patent Landscape: 5 relevant patents identified, 0 currently active"
+  ],
+  "clinical_trials": [],
+  "patents": [
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T14:51:48.032556",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T14:51:48.032556",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T14:51:48.032556",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T14:51:48.032556",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T14:51:48.032556",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thy...",
+      "url": "https://europepmc.org/article/PMC/PMC4739132",
+      "snippet": "<h4>Background</h4>Thyroid nodules are a common clinical problem, and differentiated thyroid cancer is becoming increasingly prevalent. Since the American Thyroid Association's (ATA's) guidelines for the management of these disorders were revised in 2009, significant scientific advances have occurre...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Neuroinflammation in Alzheimer's disease.",
+      "url": "https://europepmc.org/article/PMC/PMC5909703",
+      "snippet": "Increasing evidence suggests that Alzheimer's disease pathogenesis is not restricted to the neuronal compartment, but includes strong interactions with immunological mechanisms in the brain. Misfolded and aggregated proteins bind to pattern recognition receptors on microglia and astroglia, and trigg...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Community Navigation and Supportive Care Experiences of Low-Income Black and Latina Cancer Survivors: Patient and Navigator Perspectives.",
+      "url": "https://europepmc.org/article/PMC/PMC10249905",
+      "snippet": "<h4>Background</h4>Little is known about the role of community-based navigation in supportive care delivery for historically marginalized cancer survivors. The purposes of this study were to evaluate supportive care experiences of low-income, Black and Latina cancer survivors and examine the care ro...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Photodynamic therapy of cancer: an update.",
+      "url": "https://europepmc.org/article/PMC/PMC3209659",
+      "snippet": "Photodynamic therapy (PDT) is a clinically approved, minimally invasive therapeutic procedure that can exert a selective cytotoxic activity toward malignant cells. The procedure involves administration of a photosensitizing agent followed by irradiation at a wavelength corresponding to an absorbance...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "PROTAC targeted protein degraders: the past is prologue.",
+      "url": "https://europepmc.org/article/PMC/PMC8765495",
+      "snippet": "Targeted protein degradation (TPD) is an emerging therapeutic modality with the potential to tackle disease-causing proteins that have historically been highly challenging to target with conventional small molecules. In the 20 years since the concept of a proteolysis-targeting chimera (PROTAC) molec...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Liquid biopsies: genotyping circulating tumor DNA.",
+      "url": "https://europepmc.org/article/PMC/PMC4820760",
+      "snippet": "Genotyping tumor tissue in search of somatic genetic alterations for actionable information has become routine practice in clinical oncology. Although these sequence alterations are highly informative, sampling tumor tissue has significant inherent limitations; tumor tissue is a single snapshot in t...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A meta-analysis of interventions to reduce loneliness.",
+      "url": "https://europepmc.org/article/PMC/PMC3865701",
+      "snippet": "Social and demographic trends are placing an increasing number of adults at risk for loneliness, an established risk factor for physical and mental illness. The growing costs of loneliness have led to a number of loneliness reduction interventions. Qualitative reviews have identified four primary in...",
+      "relevance_score": 0.96,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Mitochondria-Targeted Triphenylphosphonium-Based Compounds: Syntheses, Mechanisms of Action, and Therapeutic and Diagnostic Applications.",
+      "url": "https://europepmc.org/article/PMC/PMC5611849",
+      "snippet": "Mitochondria are recognized as one of the most important targets for new drug design in cancer, cardiovascular, and neurological diseases. Currently, the most effective way to deliver drugs specifically to mitochondria is by covalent linking a lipophilic cation such as an alkyltriphenylphosphonium m...",
+      "relevance_score": 0.95,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Normalizing tumor microenvironment to treat cancer: bench to bedside to biomarkers.",
+      "url": "https://europepmc.org/article/PMC/PMC3731977",
+      "snippet": "For almost four decades, my work has focused on one challenge: improving the delivery and efficacy of anticancer therapeutics. Working on the hypothesis that the abnormal tumor microenvironment-characterized by hypoxia and high interstitial fluid pressure--fuels tumor progression and treatment resis...",
+      "relevance_score": 0.91,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Diverse Applications of Nanomedicine.",
+      "url": "https://europepmc.org/article/PMC/PMC5371978",
+      "snippet": "The design and use of materials in the nanoscale size range for addressing medical and health-related issues continues to receive increasing interest. Research in nanomedicine spans a multitude of areas, including drug delivery, vaccine development, antibacterial, diagnosis and imaging tools, wearab...",
+      "relevance_score": 0.84,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Traumatic brain injury: progress and challenges in prevention, clinical care, and research.",
+      "url": "https://europepmc.org/article/PMC/PMC10427240",
+      "snippet": "No abstract available.",
+      "relevance_score": 0.83,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Cancer Progress and Priorities: Lung Cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC6777859",
+      "snippet": "No abstract available.",
+      "relevance_score": 0.83,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "American Society of Clinical Oncology Statement: A Conceptual Framework to Assess the Value of Cancer Treatment Options.",
+      "url": "https://europepmc.org/article/PMC/PMC5015427",
+      "snippet": "No abstract available.",
+      "relevance_score": 0.83,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines.",
+      "url": "https://europepmc.org/article/PMC/PMC6075717",
+      "snippet": "The Cancer Genome Atlas (TCGA) cancer genomics dataset includes over 10,000 tumor-normal exome pairs across 33 different cancer types, in total >400 TB of raw data files requiring analysis. Here we describe the Multi-Center Mutation Calling in Multiple Cancers project, our effort to generate a compr...",
+      "relevance_score": 0.81,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Drugging the 'undruggable' cancer targets.",
+      "url": "https://europepmc.org/article/PMC/PMC5945194",
+      "snippet": "The term 'undruggable' was coined to describe proteins that could not be targeted pharmacologically. However, progress is being made to 'drug' many of these targets, and therefore more appropriate terms might be 'difficult to drug' or 'yet to be drugged'. Many desirable targets in cancer fall into t...",
+      "relevance_score": 0.81,
+      "retrieved_at": "2025-11-09T14:51:50.186183",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.85,
+  "confidence_level": "High",
+  "report_url": "/api/reports/job_9a140c38-6f30-4f97-a0e5-8f5481587bf2.txt",
+  "created_at": "2025-11-09T09:21:46.292307",
+  "completed_at": "2025-11-09T09:21:52.322288"
+}

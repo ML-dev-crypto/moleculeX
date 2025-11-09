@@ -1,0 +1,155 @@
+{
+  "job_id": "d5e7f0b1-32d8-4065-b311-98dffa223cfd",
+  "query": "Which respiratory diseases show low competition but high patient burden in India?",
+  "status": "completed",
+  "executive_summary": "Based on initial analysis in India, there appears to be a significant unmet need in specific respiratory diseases, characterized by a high patient burden yet currently unknown levels of competitive activity, as indicated by a lack of clinical trials and patent filings. The presence of 20 scientific publications suggests an existing research interest, but further investigation is crucial to quantify the competition landscape and precisely identify respiratory conditions with the greatest market opportunity for novel therapeutics. These diseases may represent promising areas for pharmaceutical investment, given the potential for first-in-class treatments addressing a substantial patient population.",
+  "key_findings": [
+    "Analysis Confidence: Medium (1/100) - Based on 0 trials, 0 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Geographic Focus: Analysis concentrated on India market dynamics"
+  ],
+  "clinical_trials": [],
+  "patents": [],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China.",
+      "url": "https://europepmc.org/article/PMC/PMC7159299",
+      "snippet": "<h4>Background</h4>A recent cluster of pneumonia cases in Wuhan, China, was caused by a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV). We report the epidemiological, clinical, laboratory, and radiological characteristics and treatment and clinical outcomes of these patients.<h4>Metho...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.497067",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33538338/",
+      "snippet": "This article provides an update on the global cancer burden using the GLOBOCAN 2020 estimates of cancer incidence and mortality produced by the International Agency for Research on Cancer. Worldwide, an estimated 19.3 million new cancer cases (18.1 million excluding nonmelanoma skin cancer) and almo...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30207593/",
+      "snippet": "This article provides a status report on the global burden of cancer worldwide using the GLOBOCAN 2018 estimates of cancer incidence and mortality produced by the International Agency for Research on Cancer, with a focus on geographic variability across 20 world regions. There will be an estimated 1...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A new method of classifying prognostic comorbidity in longitudinal studies: development and validation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3558716/",
+      "snippet": "The objective of this study was to develop a prospectively applicable method for classifying comorbid conditions which might alter the risk of mortality for use in longitudinal studies. A weighted index that takes into account the number and the seriousness of comorbid disease was developed in a coh...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.496064",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "\"Mini-mental state\". A practical method for grading the cognitive state of patients for the clinician.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1202204/",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/942051/",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11846609/",
+      "snippet": "The two most commonly used methods to analyze data from real-time, quantitative PCR experiments are absolute quantification and relative quantification. Absolute quantification determines the input copy number, usually by relating the PCR signal to a standard curve. Relative quantification relates t...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Moderated estimation of fold change and  dispersion for RNA-seq data with DESeq2.",
+      "url": "https://europepmc.org/article/PMC/PMC4302049",
+      "snippet": "In comparative high-throughput sequencing assays, a fundamental task is the analysis of count data, such as read counts per gene in RNA-seq, for evidence of systematic changes across experimental conditions. Small replicate numbers, discreteness, large dynamic range and the presence of outliers requ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.",
+      "url": "https://europepmc.org/article/PMC/PMC146917",
+      "snippet": "The BLAST programs are widely used tools for searching protein and DNA databases for sequence similarities. For protein comparisons, a variety of definitional, algorithmic and statistical refinements described here permits the execution time of the BLAST programs to be decreased substantially while ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data.",
+      "url": "https://europepmc.org/article/PMC/PMC4103590",
+      "snippet": "<h4>Motivation</h4>Although many next-generation sequencing (NGS) read preprocessing tools already existed, we could not find any tool or combination of tools that met our requirements in terms of flexibility, correct handling of paired-end data and high performance. We have developed Trimmomatic as...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.494671",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and wei...",
+      "url": "https://europepmc.org/article/PMC/PMC308517",
+      "snippet": "The sensitivity of the commonly used progressive multiple sequence alignment method has been greatly improved for the alignment of divergent protein sequences. Firstly, individual weights are assigned to each sequence in a partial alignment in order to down-weight near-duplicate sequences and up-wei...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.496064",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Research electronic data capture (REDCap)--a metadata-driven methodology and workflow process for providing translational research informatics supp...",
+      "url": "https://europepmc.org/article/PMC/PMC2700030",
+      "snippet": "Research electronic data capture (REDCap) is a novel workflow methodology and software solution designed for rapid development and deployment of electronic data capture tools to support clinical and translational research. We present: (1) a brief description of the REDCap metadata-driven software to...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.496064",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput.",
+      "url": "https://europepmc.org/article/PMC/PMC390337",
+      "snippet": "We describe MUSCLE, a new computer program for creating multiple alignments of protein sequences. Elements of the algorithm include fast distance estimation using kmer counting, progressive alignment using a new profile function we call the log-expectation score, and refinement using tree-dependent ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.497067",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies.",
+      "url": "https://europepmc.org/article/PMC/PMC4402510",
+      "snippet": "limma is an R/Bioconductor software package that provides an integrated solution for analysing data from gene expression experiments. It contains rich features for handling complex experimental designs and for information borrowing to overcome the problem of small sample sizes. Over the past decade,...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.497067",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "MAFFT multiple sequence alignment software version 7: improvements in performance and usability.",
+      "url": "https://europepmc.org/article/PMC/PMC3603318",
+      "snippet": "We report a major update of the MAFFT multiple sequence alignment program. This version has several new features, including options for adding unaligned sequences into an existing alignment, adjustment of direction in nucleotide alignment, constrained alignment and parallel processing, which were im...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:59:45.497067",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.62,
+  "confidence_level": "Medium",
+  "report_url": "/api/reports/job_d5e7f0b1-32d8-4065-b311-98dffa223cfd.pdf",
+  "created_at": "2025-11-09T10:29:35.192949",
+  "completed_at": "2025-11-09T10:29:54.538558"
+}

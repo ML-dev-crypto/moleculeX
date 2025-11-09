@@ -1,0 +1,65 @@
+================================================================================
+MoleculeX Analysis Report
+================================================================================
+
+Job ID: 1515b8b1-51c6-4b2b-a73c-9623de6a7dc1
+Query: Which respiratory diseases show low competition but high patient burden in India?
+Generated: 2025-11-09T09:21:20.256014
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Analysis of 'Which respiratory diseases show low competition but high patient burden in India?' reveals 20 relevant clinical trials, with 3 currently active or recruiting. The competitive landscape shows low competition in India. This represents a significant opportunity for market entry with limited direct competition. Patent analysis identified 7 relevant patents, and web intelligence gathered 20 supporting data points. Patient burden indicators suggest substantial unmet medical need in this therapeutic area.
+
+KEY FINDINGS
+--------------------------------------------------------------------------------
+1. Analysis Confidence: High (1/100) - Based on 20 trials, 7 patents, 20 publications
+2. Competitive Analysis: Low competition detected with 3 active trials
+3. Trial Phases: Most activity in PHASE3
+4. Patent Landscape: 7 relevant patents identified, 0 currently active
+5. Market Opportunity: Low competition suggests favorable conditions for new entrants
+6. Geographic Focus: Analysis concentrated on India market dynamics
+
+CLINICAL TRIALS
+--------------------------------------------------------------------------------
+Total trials found: 15
+
+NCT ID: NCT04382053
+Title: Study of Efficacy and Safety of DV890 in Patients With COVID-19 Pneumonia
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT00933790
+Title: Comparing Daily vs Intermittent Regimen of ATT in HIV With Pulmonary Tuberculosis
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT01444430
+Title: A 6 Month Safety Study Comparing Symbicort With Inhaled Corticosteroid Only in Asthmatic Adults and Adolescents
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT06837012
+Title: Duloxetine As an Analgesic in Patients Without Central Sensitivity After Same Sitting Bilateral Total Knee Arthroplasty
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT00877383
+Title: Efficacy and Safety of Indacaterol Plus Tiotropium Versus Tiotropium Alone in Patients With Chronic Obstructive Pulmonary Disease
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT04449588
+Title: Efficacy and Safety Study of BDB-001 in Severe COVID-19 With ALI/ARDS
+Status: TERMINATED
+----------------------------------------
+NCT ID: NCT06253715
+Title: Shortened Regimen for Drug-susceptible TB in Children
+Status: RECRUITING
+----------------------------------------
+NCT ID: NCT01449162
+Title: Masitinib in Treatment of Patients With Severe Persistent Asthma Treated With Oral Corticosteroids
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT01431287
+Title: Tiotropium +Olodaterol Fixed Dose Combination (FDC) Versus Tiotropium and Olodaterol in Chronic Obstructive Pulmonary Disease (COPD)
+Status: COMPLETED
+----------------------------------------
+NCT ID: NCT04276233
+Title: Efficacy and Safety Study of Mepolizumab 100 Milligram (mg) Subcutaneous (SC) in Indian Participants Aged Greater Than or Equal to (>=) 18 Years With Severe Eosinophilic Asthma
+Status: COMPLETED
+----------------------------------------

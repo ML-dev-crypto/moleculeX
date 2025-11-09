@@ -1,0 +1,22 @@
+================================================================================
+MoleculeX Analysis Report
+================================================================================
+
+Job ID: 9a140c38-6f30-4f97-a0e5-8f5481587bf2
+Query: Find unmet medical needs in oncology with recent patent activity
+Generated: 2025-11-09T09:21:52.300141
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Analysis of 'Find unmet medical needs in oncology with recent patent activity' reveals 0 relevant clinical trials, with 0 currently active or recruiting. The competitive landscape shows unknown competition in None. Patent analysis identified 5 relevant patents, and web intelligence gathered 20 supporting data points. 
+
+KEY FINDINGS
+--------------------------------------------------------------------------------
+1. Analysis Confidence: High (1/100) - Based on 0 trials, 5 patents, 20 publications
+2. Competitive Analysis: Unknown competition detected with 0 active trials
+3. Patent Landscape: 5 relevant patents identified, 0 currently active
+
+CLINICAL TRIALS
+--------------------------------------------------------------------------------
+Total trials found: 0
+

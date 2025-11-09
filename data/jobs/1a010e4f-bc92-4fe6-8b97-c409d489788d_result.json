@@ -1,0 +1,223 @@
+{
+  "job_id": "1a010e4f-bc92-4fe6-8b97-c409d489788d",
+  "query": "What are the emerging opportunities in cardiovascular drug development in Asia?",
+  "status": "completed",
+  "executive_summary": "Based on preliminary data, the cardiovascular drug development landscape in Asia presents potential opportunities, particularly in novel anticoagulation therapies targeting Factor Xa, evidenced by relevant patent activity. While the absence of ongoing clinical trials signals a nascent stage and unknown competitive intensity, the presence of scientific publications suggests a growing research interest in the region. Further investigation is needed to assess market viability and define unmet needs before recommending significant investment.",
+  "key_findings": [
+    "Analysis Confidence: Medium (1/100) - Based on 0 trials, 6 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Patent Landscape: 6 relevant patents identified, 0 currently active",
+    "Geographic Focus: Analysis concentrated on Asia market dynamics"
+  ],
+  "clinical_trials": [],
+  "patents": [
+    {
+      "patent_id": "US10946026B2",
+      "title": "Factor Xa inhibitor formulations for anticoagulation therapy",
+      "assignee": "Bayer HealthCare",
+      "filing_date": "2021-03-16",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10946026B2",
+      "retrieved_at": "2025-11-09T15:05:20.899715",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T15:05:20.898707",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T15:05:20.899715",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T15:05:20.899715",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T15:05:20.899715",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T15:05:20.899715",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30207593/",
+      "snippet": "This article provides a status report on the global burden of cancer worldwide using the GLOBOCAN 2018 estimates of cancer incidence and mortality produced by the International Agency for Research on Cancer, with a focus on geographic variability across 20 world regions. There will be an estimated 1...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.",
+      "url": "https://europepmc.org/article/PMC/PMC146917",
+      "snippet": "The BLAST programs are widely used tools for searching protein and DNA databases for sequence similarities. For protein comparisons, a variety of definitional, algorithmic and statistical refinements described here permits the execution time of the BLAST programs to be decreased substantially while ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Hallmarks of cancer: the next generation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21376230/",
+      "snippet": "The hallmarks of cancer comprise six biological capabilities acquired during the multistep development of human tumors. The hallmarks constitute an organizing principle for rationalizing the complexities of neoplastic disease. They include sustaining proliferative signaling, evading growth suppresso...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.",
+      "url": "https://europepmc.org/article/PMC/PMC1239896",
+      "snippet": "Although genomewide RNA expression analysis has become a routine tool in biomedical research, extracting biological insight from such information remains a major challenge. Here, we describe a powerful analytical method called Gene Set Enrichment Analysis (GSEA) for interpreting gene expression data...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement.",
+      "url": "https://europepmc.org/article/PMC/PMC2707599",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "STAR: ultrafast universal RNA-seq aligner.",
+      "url": "https://europepmc.org/article/PMC/PMC3530905",
+      "snippet": "<h4>Motivation</h4>Accurate alignment of high-throughput RNA-seq data is a challenging and yet unsolved problem because of the non-contiguous transcript structure, relatively short read lengths and constantly increasing throughput of the sequencing technologies. Currently available RNA-seq aligners ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Bias in meta-analysis detected by a simple, graphical test.",
+      "url": "https://europepmc.org/article/PMC/PMC2127453",
+      "snippet": "<h4>Objective</h4>Funnel plots (plots of effect estimates against sample size) may be useful to detect bias in meta-analyses that were later contradicted by large trials. We examined whether a simple test of asymmetry of funnel plots predicts discordance of results when meta-analyses are compared to...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks.",
+      "url": "https://europepmc.org/article/PMC/PMC403769",
+      "snippet": "Cytoscape is an open source software project for integrating biomolecular interaction networks with high-throughput expression data and other molecular states into a unified conceptual framework. Although applicable to any system of molecular components and interactions, Cytoscape is most powerful w...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A new method of classifying prognostic comorbidity in longitudinal studies: development and validation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3558716/",
+      "snippet": "The objective of this study was to develop a prospectively applicable method for classifying comorbid conditions which might alter the risk of mortality for use in longitudinal studies. A weighted index that takes into account the number and the seriousness of comorbid disease was developed in a coh...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China.",
+      "url": "https://europepmc.org/article/PMC/PMC7159299",
+      "snippet": "<h4>Background</h4>A recent cluster of pneumonia cases in Wuhan, China, was caused by a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV). We report the epidemiological, clinical, laboratory, and radiological characteristics and treatment and clinical outcomes of these patients.<h4>Metho...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies.",
+      "url": "https://europepmc.org/article/PMC/PMC4402510",
+      "snippet": "limma is an R/Bioconductor software package that provides an integrated solution for analysing data from gene expression experiments. It contains rich features for handling complex experimental designs and for information borrowing to overcome the problem of small sample sizes. Over the past decade,...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "KEGG: kyoto encyclopedia of genes and genomes.",
+      "url": "https://europepmc.org/article/PMC/PMC102409",
+      "snippet": "KEGG (Kyoto Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information. The genomic information is stored in the GENES database, which is a collection of gene catalogs for all the completely s...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "PLINK: a tool set for whole-genome association and population-based linkage analyses.",
+      "url": "https://europepmc.org/article/PMC/PMC1950838",
+      "snippet": "Whole-genome association studies (WGAS) bring new computational, as well as analytic, challenges to researchers. Many existing genetic-analysis tools are not designed to handle such large data sets in a convenient manner and do not necessarily exploit the new opportunities that whole-genome data bri...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "clusterProfiler: an R package for comparing biological themes among gene clusters.",
+      "url": "https://europepmc.org/article/PMC/PMC3339379",
+      "snippet": "Increasing quantitative data generated from transcriptomics and proteomics require integrative strategies for analysis. Here, we present an R package, clusterProfiler that automates the process of biological-term classification and the enrichment analysis of gene clusters. The analysis module and vi...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics ...",
+      "url": "https://europepmc.org/article/PMC/PMC4544753",
+      "snippet": "The American College of Medical Genetics and Genomics (ACMG) previously developed guidance for the interpretation of sequence variants.(1) In the past decade, sequencing technology has evolved rapidly with the advent of high-throughput next-generation sequencing. By adopting and leveraging next-gene...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:05:25.066221",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.68,
+  "confidence_level": "Medium",
+  "report_url": "/api/reports/job_1a010e4f-bc92-4fe6-8b97-c409d489788d.txt",
+  "created_at": "2025-11-09T09:35:18.986423",
+  "completed_at": "2025-11-09T09:35:39.112801"
+}

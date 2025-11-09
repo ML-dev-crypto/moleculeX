@@ -1,0 +1,315 @@
+{
+  "job_id": "e3c00051-dcf5-40d6-a571-a88822c84419",
+  "query": "Show me clinical trials for diabetes treatments with less than 5 active competitors",
+  "status": "completed",
+  "executive_summary": "Analysis of 'Show me clinical trials for diabetes treatments with less than 5 active competitors' reveals 6 relevant clinical trials, with 0 currently active or recruiting. The competitive landscape shows low competition in None. This represents a significant opportunity for market entry with limited direct competition. Patent analysis identified 5 relevant patents, and web intelligence gathered 20 supporting data points. ",
+  "key_findings": [
+    "Analysis Confidence: High (1/100) - Based on 6 trials, 5 patents, 20 publications",
+    "Competitive Analysis: Low competition detected with 0 active trials",
+    "Patent Landscape: 5 relevant patents identified, 0 currently active",
+    "Market Opportunity: Low competition suggests favorable conditions for new entrants"
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "PMID41203851",
+      "title": "Aortic calcification is associated with decreased abdominal aortic aneurysm growth.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "Sci Rep",
+      "start_date": "2025 Nov 7",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41203851/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "nct_id": "PMID41199793",
+      "title": "The Effect Of Visual Deprivation During Cognitive Motor Dual Task Training On Cognitive Function In Type 2 Diabetes Mellitus.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "F1000Res",
+      "start_date": "2025",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41199793/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "nct_id": "PMID41199369",
+      "title": "Early use of neutral Protamine Hagedorn (NPH) insulin in the management of diabetic ketoacidosis: an open-label randomized controlled trial in a resource-limited setting.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "BMC Res Notes",
+      "start_date": "2025 Nov 7",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41199369/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "nct_id": "PMID41196453",
+      "title": "Two-year follow-up assessment of a randomized controlled trial evaluating the durability of Tai Chi on cognitive function in older adults with type 2 diabetes and mild cognitive impairment.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "Aging Clin Exp Res",
+      "start_date": "2025 Nov 6",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41196453/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "nct_id": "PMID41195714",
+      "title": "The impact of blood pressure variability on cardiovascular and renal outcomes in patients with and without diabetes: insights from the Anglo-Scandinavian Cardiac Outcomes Trial.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "J Hypertens",
+      "start_date": "2025 Dec 1",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41195714/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "nct_id": "PMID41195207",
+      "title": "A study on the clinical effectiveness of a tiered management model for type 2 diabetes based on a three-level linkage mechanism in the context of residency training: a randomized controlled trial.",
+      "status": "PUBLISHED",
+      "phase": null,
+      "condition": "",
+      "intervention": null,
+      "sponsor": "Front Endocrinol (Lausanne)",
+      "start_date": "2025",
+      "completion_date": null,
+      "enrollment": null,
+      "location": null,
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41195207/",
+      "retrieved_at": "",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "patents": [
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T16:08:10.872717",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T16:08:10.872717",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T16:08:10.872717",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T16:08:10.872717",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T16:08:10.872717",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.",
+      "url": "https://europepmc.org/article/PMC/PMC1239896",
+      "snippet": "Although genomewide RNA expression analysis has become a routine tool in biomedical research, extracting biological insight from such information remains a major challenge. Here, we describe a powerful analytical method called Gene Set Enrichment Analysis (GSEA) for interpreting gene expression data...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.045790",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Bias in meta-analysis detected by a simple, graphical test.",
+      "url": "https://europepmc.org/article/PMC/PMC2127453",
+      "snippet": "<h4>Objective</h4>Funnel plots (plots of effect estimates against sample size) may be useful to detect bias in meta-analyses that were later contradicted by large trials. We examined whether a simple test of asymmetry of funnel plots predicts discordance of results when meta-analyses are compared to...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.045790",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China.",
+      "url": "https://europepmc.org/article/PMC/PMC7159299",
+      "snippet": "<h4>Background</h4>A recent cluster of pneumonia cases in Wuhan, China, was caused by a novel betacoronavirus, the 2019 novel coronavirus (2019-nCoV). We report the epidemiological, clinical, laboratory, and radiological characteristics and treatment and clinical outcomes of these patients.<h4>Metho...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The PHQ-9: validity of a brief depression severity measure.",
+      "url": "https://europepmc.org/article/PMC/PMC1495268",
+      "snippet": "<h4>Objective</h4>While considerable attention has focused on improving the detection of depression, assessment of severity is also important in guiding treatment decisions. Therefore, we examined the validity of a brief, new measure of depression severity.<h4>Measurements</h4>The Patient Health Que...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Homeostasis model assessment: insulin resistance and beta-cell function from fasting plasma glucose and insulin concentrations in man.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3899825/",
+      "snippet": "The steady-state basal plasma glucose and insulin concentrations are determined by their interaction in a feedback loop. A computer-solved model has been used to predict the homeostatic concentrations which arise from varying degrees beta-cell deficiency and insulin resistance. Comparison of a patie...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics ...",
+      "url": "https://europepmc.org/article/PMC/PMC4544753",
+      "snippet": "The American College of Medical Genetics and Genomics (ACMG) previously developed guidance for the interpretation of sequence variants.(1) In the past decade, sequencing technology has evolved rapidly with the advent of high-throughput next-generation sequencing. By adopting and leveraging next-gene...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A new equation to estimate glomerular filtration rate.",
+      "url": "https://europepmc.org/article/PMC/PMC2763564",
+      "snippet": "<h4>Background</h4>Equations to estimate glomerular filtration rate (GFR) are routinely used to assess kidney function. Current equations have limited precision and systematically underestimate measured GFR at higher values.<h4>Objective</h4>To develop a new estimating equation for GFR: the Chronic ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Clinical Characteristics of Coronavirus Disease 2019 in China.",
+      "url": "https://europepmc.org/article/PMC/PMC7092819",
+      "snippet": "<h4>Background</h4>Since December 2019, when coronavirus disease 2019 (Covid-19) emerged in Wuhan city and rapidly spread throughout China, data have been needed on the clinical characteristics of the affected patients.<h4>Methods</h4>We extracted data regarding 1099 patients with laboratory-confirm...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study.",
+      "url": "https://europepmc.org/article/PMC/PMC7270627",
+      "snippet": "<h4>Background</h4>Since December, 2019, Wuhan, China, has experienced an outbreak of coronavirus disease 2019 (COVID-19), caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Epidemiological and clinical characteristics of patients with COVID-19 have been reported but risk fa...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "WGCNA: an R package for weighted correlation network analysis.",
+      "url": "https://europepmc.org/article/PMC/PMC2631488",
+      "snippet": "<h4>Background</h4>Correlation networks are increasingly being used in bioinformatics applications. For example, weighted gene co-expression network analysis is a systems biology method for describing the correlation patterns among genes across microarray samples. Weighted correlation network analys...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China.",
+      "url": "https://europepmc.org/article/PMC/PMC7042881",
+      "snippet": "<h4>Importance</h4>In December 2019, novel coronavirus (2019-nCoV)-infected pneumonia (NCIP) occurred in Wuhan, China. The number of cases has increased rapidly but information on the clinical characteristics of affected patients is limited.<h4>Objective</h4>To describe the epidemiological and clini...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8366922/",
+      "snippet": "<h4>Background</h4>Long-term microvascular and neurologic complications cause major morbidity and mortality in patients with insulin-dependent diabetes mellitus (IDDM). We examined whether intensive treatment with the goal of maintaining blood glucose concentrations close to the normal range could d...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure: the JNC 7 report.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12748199/",
+      "snippet": "\"The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure\" provides a new guideline for hypertension prevention and management. The following are the key messages(1) In persons older than 50 years, systolic blood pressure (BP) of m...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study.",
+      "url": "https://europepmc.org/article/PMC/PMC7135076",
+      "snippet": "<h4>Background</h4>In December, 2019, a pneumonia associated with the 2019 novel coronavirus (2019-nCoV) emerged in Wuhan, China. We aimed to further clarify the epidemiological and clinical characteristics of 2019-nCoV pneumonia.<h4>Methods</h4>In this retrospective, single-centre study, we include...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate healthcare interventions: explanation and elaborat...",
+      "url": "https://europepmc.org/article/PMC/PMC2714672",
+      "snippet": "Systematic reviews and meta-analyses are essential to summarise evidence relating to efficacy and safety of healthcare interventions accurately and reliably. The clarity and transparency of these reports, however, are not optimal. Poor reporting of systematic reviews diminishes their value to clinic...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:08:13.046791",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.85,
+  "confidence_level": "High",
+  "report_url": "/api/reports/job_e3c00051-dcf5-40d6-a571-a88822c84419.pdf",
+  "created_at": "2025-11-09T10:38:06.695342",
+  "completed_at": "2025-11-09T10:38:19.624996"
+}

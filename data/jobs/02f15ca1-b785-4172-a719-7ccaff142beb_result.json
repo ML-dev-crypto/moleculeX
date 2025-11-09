@@ -1,0 +1,223 @@
+{
+  "job_id": "02f15ca1-b785-4172-a719-7ccaff142beb",
+  "query": "Which respiratory diseases show low competition but high patient burden in India?",
+  "status": "completed",
+  "executive_summary": "Analysis of the Indian respiratory disease landscape reveals potential opportunities in areas with high patient burden, as indicated by scientific publications, but limited clinical trial activity and currently unknown competitive intensity. While a few relevant patents exist, suggesting some innovation, the lack of active clinical trials points to a gap in translating research into therapeutic solutions for these unmet needs. Further investigation into specific respiratory diseases with a disproportionate impact on the Indian population and validation of the low competitive landscape is warranted to assess market viability and inform strategic investment decisions.",
+  "key_findings": [
+    "Analysis Confidence: Medium (1/100) - Based on 0 trials, 6 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Patent Landscape: 6 relevant patents identified, 0 currently active",
+    "Geographic Focus: Analysis concentrated on India market dynamics"
+  ],
+  "clinical_trials": [],
+  "patents": [
+    {
+      "patent_id": "US11065248B2",
+      "title": "Tuberculosis treatment regimens with novel antimicrobial agents",
+      "assignee": "TB Alliance",
+      "filing_date": "2021-07-20",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11065248B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.4,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.1,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T15:22:07.859289",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "A rating scale for depression.",
+      "url": "https://europepmc.org/article/PMC/PMC495331",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Stud...",
+      "url": "https://europepmc.org/article/PMC/PMC7567026",
+      "snippet": "<h4>Background</h4>In an era of shifting global agendas and expanded emphasis on non-communicable diseases and injuries along with communicable diseases, sound evidence on trends by cause at the national level is essential. The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) provid...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territori...",
+      "url": "https://europepmc.org/article/PMC/PMC6227754",
+      "snippet": "<h4>Background</h4>The Global Burden of Diseases, Injuries, and Risk Factors Study 2017 (GBD 2017) includes a comprehensive assessment of incidence, prevalence, and years lived with disability (YLDs) for 354 causes in 195 countries and territories from 1990 to 2017. Previous GBD studies have shown h...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age.",
+      "url": "https://europepmc.org/article/PMC/PMC4380465",
+      "snippet": "Cathie Sudlow and colleagues describe the UK Biobank, a large population-based prospective study, established to allow investigation of the genetic and non-genetic determinants of the diseases of middle and old age.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Efficacy and Safety of the mRNA-1273 SARS-CoV-2 Vaccine.",
+      "url": "https://europepmc.org/article/PMC/PMC7787219",
+      "snippet": "<h4>Background</h4>Vaccines are needed to prevent coronavirus disease 2019 (Covid-19) and to protect persons who are at high risk for complications. The mRNA-1273 vaccine is a lipid nanoparticle-encapsulated mRNA-based vaccine that encodes the prefusion stabilized full-length spike protein of the se...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The mutational constraint spectrum quantified from variation in 141,456 humans.",
+      "url": "https://europepmc.org/article/PMC/PMC7334197",
+      "snippet": "Genetic variants that inactivate protein-coding genes are a powerful source of information about the phenotypic consequences of gene disruption: genes that are crucial for the function of an organism will be depleted of such variants in natural populations, whereas non-essential genes will tolerate ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The biology<b>,</b> function<b>,</b> and biomedical applications of exosomes.",
+      "url": "https://europepmc.org/article/PMC/PMC7717626",
+      "snippet": "The study of extracellular vesicles (EVs) has the potential to identify unknown cellular and molecular mechanisms in intercellular communication and in organ homeostasis and disease. Exosomes, with an average diameter of ~100 nanometers, are a subset of EVs. The biogenesis of exosomes involves their...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Safety and activity of anti-PD-L1 antibody in patients with advanced cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC3563263",
+      "snippet": "<h4>Background</h4>Programmed death 1 (PD-1) protein, a T-cell coinhibitory receptor, and one of its ligands, PD-L1, play a pivotal role in the ability of tumor cells to evade the host's immune system. Blockade of interactions between PD-1 and PD-L1 enhances immune function in vitro and mediates ant...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Heart Disease and Stroke Statistics-2017 Update: A Report From the American Heart Association.",
+      "url": "https://europepmc.org/article/PMC/PMC5408160",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "A biomarker that identifies senescent human cells in culture and in aging skin in vivo.",
+      "url": "https://europepmc.org/article/PMC/PMC40985",
+      "snippet": "Normal somatic cells invariably enter a state of irreversibly arrested growth and altered function after a finite number of divisions. This process, termed replicative senescence, is thought to be a tumor-suppressive mechanism and an underlying cause of aging. There is ample evidence that escape fro...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The MR-Base platform supports systematic causal inference across the human phenome.",
+      "url": "https://europepmc.org/article/PMC/PMC5976434",
+      "snippet": "Results from genome-wide association studies (GWAS) can be used to infer causal relationships between phenotypes, using a strategy known as 2-sample Mendelian randomization (2SMR) and bypassing the need for individual-level data. However, 2SMR methods are evolving rapidly and GWAS results are often ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Autophagy in the pathogenesis of disease.",
+      "url": "https://europepmc.org/article/PMC/PMC2696814",
+      "snippet": "Autophagy is a lysosomal degradation pathway that is essential for survival, differentiation, development, and homeostasis. Autophagy principally serves an adaptive role to protect organisms against diverse pathologies, including infections, cancer, neurodegeneration, aging, and heart disease. Howev...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Years lived with disability (YLDs) for 1160 sequelae of 289 diseases and injuries 1990-2010: a systematic analysis for the Global Burden of Disease...",
+      "url": "https://europepmc.org/article/PMC/PMC6350784",
+      "snippet": "<h4>Background</h4>Non-fatal health outcomes from diseases and injuries are a crucial consideration in the promotion and monitoring of individual and population health. The Global Burden of Disease (GBD) studies done in 1990 and 2000 have been the only studies to quantify non-fatal health outcomes a...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews.",
+      "url": "https://europepmc.org/article/PMC/PMC8005925",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990-2016: a...",
+      "url": "https://europepmc.org/article/PMC/PMC5605509",
+      "snippet": "<h4>Background</h4>As mortality rates decline, life expectancy increases, and populations age, non-fatal outcomes of diseases and injuries are becoming a larger component of the global burden of disease. The Global Burden of Diseases, Injuries, and Risk Factors Study 2016 (GBD 2016) provides a compr...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T15:22:11.001606",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.57,
+  "confidence_level": "Medium",
+  "report_url": "/api/reports/job_02f15ca1-b785-4172-a719-7ccaff142beb.txt",
+  "created_at": "2025-11-09T09:52:06.585900",
+  "completed_at": "2025-11-09T09:52:33.822838"
+}

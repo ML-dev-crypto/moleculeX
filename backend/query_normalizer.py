@@ -18,6 +18,9 @@ class QueryNormalizer:
         "ild": ["interstitial lung disease", "pulmonary fibrosis", "diffuse parenchymal lung disease"],
         "tuberculosis": ["tb", "mycobacterium tuberculosis", "pulmonary tuberculosis"],
         "pneumonia": ["lung infection", "pneumonitis", "community-acquired pneumonia"],
+    "nash": ["non-alcoholic steatohepatitis", "fatty liver disease", "metabolic dysfunction-associated steatohepatitis"],
+    "obesity": ["overweight", "adiposity", "excess body weight", "metabolic syndrome"],
+    "glioblastoma": ["gbm", "brain tumor", "glioma"],
         
         # Cardiovascular
         "cardiovascular": ["cardiac", "heart disease", "circulatory disease"],
@@ -32,12 +35,14 @@ class QueryNormalizer:
         "type 2 diabetes": ["t2dm", "adult-onset diabetes", "non-insulin dependent diabetes"],
         "obesity": ["overweight", "adiposity", "excess body weight"],
         "metabolic syndrome": ["syndrome x", "insulin resistance syndrome"],
+    "nash": ["non-alcoholic steatohepatitis", "fatty liver", "steatohepatitis"],
         
         # Oncology
         "cancer": ["malignancy", "neoplasm", "tumor", "carcinoma"],
         "lung cancer": ["pulmonary cancer", "bronchogenic carcinoma", "nsclc", "sclc"],
         "breast cancer": ["mammary carcinoma", "breast neoplasm"],
         "colorectal cancer": ["colon cancer", "rectal cancer", "bowel cancer"],
+    "glioblastoma": ["gbm", "brain cancer", "high-grade glioma"],
         
         # Neurology
         "alzheimer": ["alzheimer's disease", "alzheimer disease", "dementia"],

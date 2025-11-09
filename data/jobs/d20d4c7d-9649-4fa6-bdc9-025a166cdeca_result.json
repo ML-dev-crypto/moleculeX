@@ -1,0 +1,223 @@
+{
+  "job_id": "d20d4c7d-9649-4fa6-bdc9-025a166cdeca",
+  "query": "Which respiratory diseases show low competition but high patient burden in India?",
+  "status": "completed",
+  "executive_summary": "Analysis of 'Which respiratory diseases show low competition but high patient burden in India?' reveals 0 relevant clinical trials, with 0 currently active or recruiting. The competitive landscape shows moderate competition in India. Patent analysis identified 6 relevant patents, and web intelligence gathered 20 supporting data points. Patient burden indicators suggest substantial unmet medical need in this therapeutic area.",
+  "key_findings": [
+    "Analysis Confidence: Medium (1/100) - Based on 0 trials, 6 patents, 20 publications",
+    "Competitive Analysis: Unknown competition detected with 0 active trials",
+    "Patent Landscape: 6 relevant patents identified, 0 currently active",
+    "Geographic Focus: Analysis concentrated on India market dynamics"
+  ],
+  "clinical_trials": [],
+  "patents": [
+    {
+      "patent_id": "US11065248B2",
+      "title": "Tuberculosis treatment regimens with novel antimicrobial agents",
+      "assignee": "TB Alliance",
+      "filing_date": "2021-07-20",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11065248B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.4,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10633411B2",
+      "title": "Pharmaceutical compositions containing EGFR inhibitors for treatment of respiratory disorders",
+      "assignee": "AstraZeneca AB",
+      "filing_date": "2019-04-25",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10633411B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10557109B2",
+      "title": "JAK inhibitor formulations for treatment of inflammatory diseases",
+      "assignee": "Pfizer Inc.",
+      "filing_date": "2020-02-11",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10557109B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US11180517B2",
+      "title": "SGLT2 inhibitor combinations for diabetes and cardiovascular disease",
+      "assignee": "Boehringer Ingelheim",
+      "filing_date": "2021-11-23",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US11180517B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10675289B2",
+      "title": "PD-1 antibody formulations for cancer immunotherapy",
+      "assignee": "Bristol-Myers Squibb Company",
+      "filing_date": "2020-06-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10675289B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.0,
+      "matched_terms": []
+    },
+    {
+      "patent_id": "US10912783B2",
+      "title": "GLP-1 receptor agonist delivery systems for obesity and diabetes",
+      "assignee": "Novo Nordisk A/S",
+      "filing_date": "2021-02-09",
+      "status": "Granted",
+      "source_url": "https://patents.google.com/patent/US10912783B2",
+      "retrieved_at": "2025-11-09T16:04:59.221274",
+      "match_score": 0.0,
+      "matched_terms": []
+    }
+  ],
+  "web_intel": [
+    {
+      "source": "MED",
+      "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Stud...",
+      "url": "https://europepmc.org/article/PMC/PMC7567026",
+      "snippet": "<h4>Background</h4>In an era of shifting global agendas and expanded emphasis on non-communicable diseases and injuries along with communicable diseases, sound evidence on trends by cause at the national level is essential. The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) provid...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territori...",
+      "url": "https://europepmc.org/article/PMC/PMC6227754",
+      "snippet": "<h4>Background</h4>The Global Burden of Diseases, Injuries, and Risk Factors Study 2017 (GBD 2017) includes a comprehensive assessment of incidence, prevalence, and years lived with disability (YLDs) for 354 causes in 195 countries and territories from 1990 to 2017. Previous GBD studies have shown h...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.377319",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease S...",
+      "url": "https://europepmc.org/article/PMC/PMC10790329",
+      "snippet": "<h4>Background</h4>Reliable and timely information on the leading causes of death in populations, and how these are changing, is a crucial input into health policy debates. In the Global Burden of Diseases, Injuries, and Risk Factors Study 2010 (GBD 2010), we aimed to estimate annual deaths for the ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications.",
+      "url": "https://europepmc.org/article/PMC/PMC411572",
+      "snippet": "A method has been devised for the electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets. The method results in quantitative transfer of ribosomal proteins from gels containing urea. For sodium dodecyl sulfate gels, the original band pattern was obtained with no loss ...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The PHQ-9: validity of a brief depression severity measure.",
+      "url": "https://europepmc.org/article/PMC/PMC1495268",
+      "snippet": "<h4>Objective</h4>While considerable attention has focused on improving the detection of depression, assessment of severity is also important in guiding treatment decisions. Therefore, we examined the validity of a brief, new measure of depression severity.<h4>Measurements</h4>The Patient Health Que...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The American Rheumatism Association 1987 revised criteria for the classification of rheumatoid arthritis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3358796/",
+      "snippet": "The revised criteria for the classification of rheumatoid arthritis (RA) were formulated from a computerized analysis of 262 contemporary, consecutively studied patients with RA and 262 control subjects with rheumatic diseases other than RA (non-RA). The new criteria are as follows: 1) morning stiff...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate healthcare interventions: explanation and elaborat...",
+      "url": "https://europepmc.org/article/PMC/PMC2714672",
+      "snippet": "Systematic reviews and meta-analyses are essential to summarise evidence relating to efficacy and safety of healthcare interventions accurately and reliably. The clarity and transparency of these reports, however, are not optimal. Poor reporting of systematic reviews diminishes their value to clinic...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin.",
+      "url": "https://europepmc.org/article/PMC/PMC1370926",
+      "snippet": "<h4>Background</h4>Type 2 diabetes affects approximately 8 percent of adults in the United States. Some risk factors--elevated plasma glucose concentrations in the fasting state and after an oral glucose load, overweight, and a sedentary lifestyle--are potentially reversible. We hypothesized that mo...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Inflammation and cancer.",
+      "url": "https://europepmc.org/article/PMC/PMC2803035",
+      "snippet": "Recent data have expanded the concept that inflammation is a critical component of tumour progression. Many cancers arise from sites of infection, chronic irritation and inflammation. It is now becoming clear that the tumour microenvironment, which is largely orchestrated by inflammatory cells, is a...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The 1982 revised criteria for the classification of systemic lupus erythematosus.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7138600/",
+      "snippet": "The 1971 preliminary criteria for the classification of systemic lupus erythematosus (SLE) were revised and updated to incorporate new immunologic knowledge and improve disease classification. The 1982 revised criteria include fluorescence antinuclear antibody and antibody to native DNA and Sm antig...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elabora...",
+      "url": "https://europepmc.org/article/PMC/PMC2707010",
+      "snippet": "Systematic reviews and meta-analyses are essential to summarize evidence relating to efficacy and safety of health care interventions accurately and reliably. The clarity and transparency of these reports, however, is not optimal. Poor reporting of systematic reviews diminishes their value to clinic...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.376324",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Apoptosis: a review of programmed cell death.",
+      "url": "https://europepmc.org/article/PMC/PMC2117903",
+      "snippet": "The process of programmed cell death, or apoptosis, is generally characterized by distinct morphological characteristics and energy-dependent biochemical mechanisms. Apoptosis is considered a vital component of various processes including normal cell turnover, proper development and functioning of t...",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.377319",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Radiological assessment of osteo-arthrosis.",
+      "url": "https://europepmc.org/article/PMC/PMC1006995",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.377319",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age.",
+      "url": "https://europepmc.org/article/PMC/PMC4380465",
+      "snippet": "Cathie Sudlow and colleagues describe the UK Biobank, a large population-based prospective study, established to allow investigation of the genetic and non-genetic determinants of the diseases of middle and old age.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.377319",
+      "matched_terms": []
+    },
+    {
+      "source": "MED",
+      "title": "Updating the American College of Rheumatology revised criteria for the classification of systemic lupus erythematosus.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9324032/",
+      "snippet": "No abstract available.",
+      "relevance_score": 1.0,
+      "retrieved_at": "2025-11-09T16:05:03.377319",
+      "matched_terms": []
+    }
+  ],
+  "confidence_score": 0.57,
+  "confidence_level": "Medium",
+  "report_url": "/api/reports/job_d20d4c7d-9649-4fa6-bdc9-025a166cdeca.pdf",
+  "created_at": "2025-11-09T10:34:50.123556",
+  "completed_at": "2025-11-09T10:35:12.811676"
+}

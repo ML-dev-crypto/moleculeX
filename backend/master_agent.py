@@ -1,9 +1,12 @@
 """
 Master Agent - Orchestrates worker agents and synthesizes results
 """
+import os
+import json
 import asyncio
 from typing import Dict, Any, List
 from datetime import datetime
+from google import genai
 
 from agents.clinical_trials_agent import ClinicalTrialsAgent
 from agents.patent_agent import PatentAgent
@@ -60,6 +63,9 @@ class MasterAgent:
             await self._update_master_status(job_id, AgentStatus.COMPLETED)
             self.job_manager.update_job(job_id, {"progress": 10})
             
+            # Optional: AI-assisted term expansion for broader coverage
+            normalized = await self._expand_search_terms_with_ai(query, normalized)
+
             # Step 2: Run worker agents in parallel with normalized/expanded queries
             results = await self._run_workers(job_id, query, intent)
             self.job_manager.update_job(job_id, {"progress": 70})
@@ -356,8 +362,55 @@ class MasterAgent:
     
     def _generate_executive_summary(self, query: str, trials, competition, 
                                    patents, web_intel, intent) -> str:
-        """Generate AI-driven executive summary"""
+        """Generate AI-driven executive summary using Gemini"""
         
+        # Try to use Gemini for enhanced summary
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        if api_key:
+            try:
+                client = genai.Client(api_key=api_key)
+                model_name = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
+                
+                # Prepare concise data for Gemini
+                region = intent.get("geographic_region", "the targeted region")
+                competition_level = competition.get("competition_level", "moderate")
+                active_trials = competition.get("active_trials", 0)
+                total_trials = competition.get("total_trials", 0)
+                focus_areas = intent.get("focus_areas", [])
+                
+                # Get top trial titles
+                trial_titles = [getattr(t, 'title', 'N/A')[:100] for t in trials[:5]]
+                patent_titles = [getattr(p, 'title', 'N/A')[:100] for p in patents[:3]]
+                
+                prompt = f"""You are a pharmaceutical research analyst. Create a compelling executive summary (3-4 sentences, professional tone).
+
+Query: "{query}"
+
+Key Data:
+- {total_trials} clinical trials found ({active_trials} active/recruiting)
+- Competition level: {competition_level} in {region}
+- {len(patents)} relevant patents
+- {len(web_intel)} scientific publications
+- Focus areas: {', '.join(focus_areas)}
+
+Top Trials: {trial_titles[:3]}
+Top Patents: {patent_titles[:2]}
+
+Write a concise, insightful executive summary highlighting opportunities, competition, and market potential."""
+
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt
+                )
+                summary = (getattr(response, 'text', '') or '').strip()
+                
+                print(f"✅ Generated AI-powered executive summary")
+                return summary
+                
+            except Exception as e:
+                print(f"⚠️ Gemini summary failed: {e}, using template")
+        
+        # Fallback to template-based summary
         region = intent.get("geographic_region", "the targeted region")
         competition_level = competition.get("competition_level", "moderate")
         active_trials = competition.get("active_trials", 0)
@@ -426,3 +479,50 @@ class MasterAgent:
     async def _send_ws_update(self, job_id: str, event_type: str, data: Dict[str, Any]):
         """Send WebSocket update"""
         await ws_manager.send_update(job_id, event_type, data)
+
+    async def _expand_search_terms_with_ai(self, query: str, normalized: Dict[str, Any]) -> Dict[str, Any]:
+        """Use Gemini to expand canonical terms and synonyms for better recall.
+        Returns an updated normalized dict with enriched search_terms.
+        """
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            return normalized
+        try:
+            client = genai.Client(api_key=api_key)
+            model_name = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-exp")
+            base_terms = normalized.get("search_terms", {})
+            prompt = f"""
+You are a medical research assistant. Expand search terms for a clinical research platform.
+Query: "{query}"
+
+Given existing terms:
+{json.dumps(base_terms, indent=2)}
+
+Return ONLY a compact JSON object with keys exactly: clinical_trials, patents, literature.
+Each key maps to an array of 5-10 short strings (disease names, drug classes, related concepts).
+No explanation, no markdown, just JSON.
+"""
+            response = client.models.generate_content(model=model_name, contents=prompt)
+            txt = (getattr(response, 'text', '') or '').strip()
+            # Extract JSON object
+            s = txt
+            if s.startswith("```"):
+                s = s.strip('`\n ')
+                if "\n" in s:
+                    s = s.split("\n", 1)[1]
+            try:
+                expanded = json.loads(s)
+                # Merge with existing search_terms conservatively
+                merged = {
+                    "clinical_trials": list({*(base_terms.get("clinical_trials", [])), *expanded.get("clinical_trials", [])})[:10],
+                    "patents": list({*(base_terms.get("patents", [])), *expanded.get("patents", [])})[:8],
+                    "literature": list({*(base_terms.get("literature", [])), *expanded.get("literature", [])})[:12],
+                }
+                normalized["search_terms"] = merged
+            except Exception:
+                # Ignore parsing errors; keep original terms
+                pass
+        except Exception:
+            # If AI call fails, keep original normalized terms
+            pass
+        return normalized
