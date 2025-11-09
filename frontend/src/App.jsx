@@ -6,7 +6,7 @@ import ResultsPanel from './components/ResultsPanel'
 import ReportDownload from './components/ReportDownload'
 import AnimatedBackground from './components/AnimatedBackground'
 import Footer from './components/Footer'
-import { submitQuery } from './api/client'
+import { submitQuery, getJobStatus, getJobResult } from './api/client'
 import useWebSocket from './hooks/useWebSocket'
 
 function App() {
@@ -67,14 +67,11 @@ function App() {
 
   const fetchResults = async (jId) => {
     try {
-      const response = await fetch(`/api/result/${jId}`)
-      if (response.ok) {
-        const data = await response.json()
-        setResults(data)
-        // Set report URL if available
-        if (data.report_url) {
-          setReportUrl(data.report_url)
-        }
+      const data = await getJobResult(jId)
+      setResults(data)
+      // Set report URL if available
+      if (data.report_url) {
+        setReportUrl(data.report_url)
       }
     } catch (error) {
       console.error('Error fetching results:', error)
@@ -113,15 +110,13 @@ function App() {
   const pollProgress = async (jId) => {
     const interval = setInterval(async () => {
       try {
-        const response = await fetch(`/api/status/${jId}`)
-        if (response.ok) {
-          const data = await response.json()
-          setProgress(data.progress)
-          setAgents(data.agents)
-          
-          if (data.status === 'completed') {
-            clearInterval(interval)
-            setStatus('completed')
+        const data = await getJobStatus(jId)
+        setProgress(data.progress)
+        setAgents(data.agents)
+        
+        if (data.status === 'completed') {
+          clearInterval(interval)
+          setStatus('completed')
             setIsProcessing(false)
             // Automatically fetch results when completed
             await fetchResults(jId)
