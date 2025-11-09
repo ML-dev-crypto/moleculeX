@@ -123,3 +123,15 @@ class WebSocketMessage(BaseModel):
     event_type: str  # agent_update, progress_update, job_completed
     data: Dict[str, Any]
     timestamp: str
+
+
+class ChatRequest(BaseModel):
+    """Chat message request"""
+    message: str = Field(..., min_length=1, max_length=1000)
+    context: Optional[Dict[str, Any]] = None
+
+
+class ChatResponse(BaseModel):
+    """Chat message response"""
+    response: str
+    timestamp: str

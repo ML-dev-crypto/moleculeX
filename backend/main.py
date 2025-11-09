@@ -13,7 +13,7 @@ from contextlib import asynccontextmanager
 import uvicorn
 import os
 
-from routes import query_router, status_router
+from routes import query_router, status_router, chat_router
 from websocket_manager import ConnectionManager
 
 # Create necessary directories
@@ -61,6 +61,7 @@ app.add_middleware(
 # Include routers
 app.include_router(query_router, prefix="/api", tags=["queries"])
 app.include_router(status_router, prefix="/api", tags=["status"])
+app.include_router(chat_router, prefix="/api", tags=["chat"])
 
 
 @app.get("/")

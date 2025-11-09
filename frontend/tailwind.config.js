@@ -4,9 +4,40 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
+        // Perplexity-inspired blue palette
+        perplexity: {
+          primary: '#1B8FD8',
+          hover: '#1577B8',
+          dark: '#0A4D6E',
+          light: '#E6F4FA',
+          blue: {
+            50: '#E6F4FA',
+            100: '#CCE9F5',
+            200: '#99D3EB',
+            300: '#66BDE1',
+            400: '#33A7D7',
+            500: '#1B8FD8',
+            600: '#1577B8',
+            700: '#0F5F98',
+            800: '#0A4D6E',
+            900: '#063854',
+          },
+          border: '#e5e7eb',
+          text: {
+            primary: '#1f2937',
+            secondary: '#6b7280',
+            muted: '#9ca3af',
+          },
+          bg: {
+            primary: '#ffffff',
+            secondary: '#f9fafb',
+            hover: '#f3f4f6',
+          }
+        },
         primary: {
           DEFAULT: '#5B5FF2',
           50: '#F7F8FF',
@@ -17,6 +48,26 @@ export default {
           500: '#5B5FF2',
           600: '#4347E0',
           700: '#3337B8',
+        },
+        accent: {
+          purple: '#a855f7',
+          pink: '#ec4899',
+          blue: '#3b82f6',
+          cyan: '#06b6d4',
+        },
+        // Bio-Line inspired cyber theme
+        cyber: {
+          bg: '#000000',
+          bgLight: '#0A0F1E',
+          bgCard: '#0D1520',
+          cyan: '#00FFFF',
+          cyanGlow: '#00D9FF',
+          blue: '#0066FF',
+          purple: '#6366F1',
+          text: '#E0E7FF',
+          textDim: '#94A3B8',
+          border: '#1E293B',
+          accent: '#00FFFF',
         },
         'neon-green': '#DDFE9A',
         'soft-blue': '#EEF3F8',
@@ -64,6 +115,7 @@ export default {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
         display: ['Satoshi', 'Inter', 'SF Pro Display', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'monospace'],
       },
       fontSize: {
         'hero': ['64px', { lineHeight: '1.1', letterSpacing: '-0.02em', fontWeight: '700' }],
@@ -102,6 +154,10 @@ export default {
         'glow': 'glow 2s ease-in-out infinite',
         'float': 'float 6s ease-in-out infinite',
         'gradient-shift': 'gradientShift 8s ease infinite',
+        'cyber-glow': 'cyberGlow 2s ease-in-out infinite',
+        'text-glitch': 'textGlitch 3s ease-in-out infinite',
+        'cursor-blink': 'cursorBlink 1s step-end infinite',
+        'grid-pulse': 'gridPulse 4s ease-in-out infinite',
       },
       keyframes: {
         shimmer: {
@@ -128,6 +184,22 @@ export default {
           '0%, 100%': { backgroundPosition: '0% 50%' },
           '50%': { backgroundPosition: '100% 50%' },
         },
+        cyberGlow: {
+          '0%, 100%': { boxShadow: '0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.2)' },
+          '50%': { boxShadow: '0 0 30px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.4)' },
+        },
+        textGlitch: {
+          '0%, 100%': { textShadow: '0 0 10px rgba(0, 255, 255, 0.8)' },
+          '50%': { textShadow: '0 0 20px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 0.6)' },
+        },
+        cursorBlink: {
+          '0%, 50%': { opacity: '1' },
+          '51%, 100%': { opacity: '0' },
+        },
+        gridPulse: {
+          '0%, 100%': { opacity: '0.1' },
+          '50%': { opacity: '0.3' },
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -135,6 +207,11 @@ export default {
         'shimmer-gradient': 'linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent)',
         'hero-gradient': 'linear-gradient(135deg, #F7F8FF 0%, #EDEFFF 50%, #D4D7FF 100%)',
         'section-gradient': 'linear-gradient(180deg, #FFFFFF 0%, #F7F8FF 100%)',
+        // Formless-inspired dark gradients
+        'dark-gradient': 'linear-gradient(to bottom, #0a0a0a 0%, #111111 100%)',
+        'gradient-purple-pink': 'linear-gradient(to right, #a855f7, #ec4899)',
+        'gradient-blue-cyan': 'linear-gradient(to right, #3b82f6, #06b6d4)',
+        'gradient-mesh': 'radial-gradient(at 40% 20%, rgba(168, 85, 247, 0.4) 0px, transparent 50%), radial-gradient(at 80% 0%, rgba(59, 130, 246, 0.4) 0px, transparent 50%), radial-gradient(at 0% 50%, rgba(236, 72, 153, 0.4) 0px, transparent 50%)',
       },
     },
   },

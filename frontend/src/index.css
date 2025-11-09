@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply antialiased;
+    @apply antialiased bg-white text-gray-900;
     margin: 0;
-    font-family: 'Inter', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: radial-gradient(ellipse at top, #f6f9ff 0%, #e3e7ff 50%, #ffffff 100%);
+    background: #ffffff;
     min-height: 100vh;
   }
 
@@ -65,6 +65,98 @@
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+}
+
+/* Bio-Line inspired monospace font */
+.font-mono {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 
+               'Droid Sans Mono', 'Source Code Pro', monospace;
+}
+
+/* Glitch effect animations */
+@keyframes glitch-1 {
+  0%, 100% {
+    opacity: 0;
+    transform: translate(0);
+  }
+  20% {
+    opacity: 0.8;
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    opacity: 0;
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    opacity: 0.8;
+    transform: translate(2px, 2px);
+  }
+  80% {
+    opacity: 0;
+    transform: translate(2px, -2px);
+  }
+}
+
+@keyframes glitch-2 {
+  0%, 100% {
+    opacity: 0;
+    transform: translate(0);
+  }
+  30% {
+    opacity: 0.6;
+    transform: translate(3px, -3px);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-3px, 3px);
+  }
+  70% {
+    opacity: 0.6;
+    transform: translate(-3px, -3px);
+  }
+  90% {
+    opacity: 0;
+    transform: translate(3px, 3px);
+  }
+}
+
+.animate-glitch-1 {
+  animation: glitch-1 3s infinite;
+}
+
+.animate-glitch-2 {
+  animation: glitch-2 4s infinite;
+}
+
+/* Smooth fade in for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Gradient text shine effect */
+@keyframes shine {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.animate-shine {
+  background-size: 200% auto;
+  animation: shine 3s linear infinite;
 }
 
 /* Selection styling */
