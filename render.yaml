@@ -1,0 +1,40 @@
+services:services:
+
+  - type: web  - type: web
+
+    name: moleculex-backend    name: moleculex-backend
+
+    env: python    env: python
+
+    region: oregon    region: oregon
+
+    plan: free    plan: free
+
+    buildCommand: cd backend && pip install --upgrade pip setuptools wheel && pip install -r requirements.txt    buildCommand: pip install -r requirements.txt
+
+    startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+
+    envVars:    envVars:
+
+      - key: PYTHON_VERSION      - key: PYTHON_VERSION
+
+        value: 3.11.9        value: 3.11
+
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/health
+
+  - type: web
+    name: moleculex-frontend
+    env: static
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://moleculex-backend.onrender.com/api/*
+      - type: rewrite
+        source: /*
+        destination: /index.html
