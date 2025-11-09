@@ -10,30 +10,24 @@ class SemanticSearchEngine:
     def __init__(self):
         print("✅ Semantic search initialized (basic mode)")
     
-    def re_rank_clinical_trials(self, query: str, trials: List[Dict]) -> List[Dict]:
-        """Return trials with default relevance scores"""
-        for trial in trials:
-            trial["relevance_score"] = 0.7
+    def re_rank_clinical_trials(self, query: str, trials: List[Any]) -> List[Any]:
+        """Return trials as-is (no re-ranking in basic mode)"""
         return trials
     
-    def re_rank_patents(self, query: str, patents: List[Dict]) -> List[Dict]:
-        """Return patents with default relevance scores"""
-        for patent in patents:
-            patent["relevance_score"] = 0.7
+    def re_rank_patents(self, query: str, patents: List[Any]) -> List[Any]:
+        """Return patents as-is (no re-ranking in basic mode)"""
         return patents
     
-    def re_rank_literature(self, query: str, literature: List[Dict]) -> List[Dict]:
-        """Return literature with default relevance scores"""
-        for item in literature:
-            item["relevance_score"] = 0.7
+    def re_rank_literature(self, query: str, literature: List[Any]) -> List[Any]:
+        """Return literature as-is (no re-ranking in basic mode)"""
         return literature
     
     def compute_confidence_score(
         self, 
         query: str,
-        clinical_trials: List[Dict],
-        patents: List[Dict],
-        web_intel: List[Dict]
+        clinical_trials: List[Any],
+        patents: List[Any],
+        web_intel: List[Any]
     ) -> Tuple[float, str]:
         """Simple count-based confidence scoring"""
         total = len(clinical_trials) + len(patents) + len(web_intel)
