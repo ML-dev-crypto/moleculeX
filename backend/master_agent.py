@@ -13,7 +13,7 @@ from websocket_manager import manager as ws_manager
 from models import JobStatus, AgentStatus
 from report_generator import ReportGenerator
 from query_normalizer import QueryNormalizer
-from semantic_search import SemanticSearchEngine
+# from semantic_search import SemanticSearchEngine  # Disabled for memory constraints
 
 
 class MasterAgent:
@@ -24,7 +24,7 @@ class MasterAgent:
         self.job_manager = JobManager()
         self.report_generator = ReportGenerator()
         self.query_normalizer = QueryNormalizer()
-        self.semantic_search = SemanticSearchEngine()  # Phase 4: Semantic search
+        # self.semantic_search = SemanticSearchEngine()  # Disabled for memory constraints
         
         # Initialize worker agents
         self.clinical_trials_agent = ClinicalTrialsAgent()
@@ -315,17 +315,24 @@ class MasterAgent:
         patents = results["patents"]
         web_intel = results["web_intel"]
         
-        print(f"🧠 Applying semantic re-ranking...")
+        print(f"🧠 Skipping semantic re-ranking (disabled for memory optimization)...")
         
-        # Phase 4: Semantic re-ranking of results
-        clinical_trials_ranked = self.semantic_search.re_rank_clinical_trials(query, clinical_trials)
-        patents_ranked = self.semantic_search.re_rank_patents(query, patents)
-        web_intel_ranked = self.semantic_search.re_rank_literature(query, web_intel)
+        # Phase 4: Semantic re-ranking disabled - use original results
+        clinical_trials_ranked = clinical_trials
+        patents_ranked = patents
+        web_intel_ranked = web_intel
         
-        # Phase 4: Compute confidence score
-        confidence_score, confidence_level = self.semantic_search.compute_confidence_score(
-            query, clinical_trials_ranked, patents_ranked, web_intel_ranked
-        )
+        # Phase 4: Compute basic confidence score (without semantic analysis)
+        total_results = len(clinical_trials) + len(patents) + len(web_intel)
+        if total_results >= 20:
+            confidence_score = 0.85
+            confidence_level = "High"
+        elif total_results >= 10:
+            confidence_score = 0.70
+            confidence_level = "Medium"
+        else:
+            confidence_score = 0.50
+            confidence_level = "Low"
         
         # Generate executive summary
         exec_summary = self._generate_executive_summary(
