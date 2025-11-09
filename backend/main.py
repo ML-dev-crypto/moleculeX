@@ -39,8 +39,13 @@ app = FastAPI(
 # CORS middleware for React frontend
 # Get allowed origins from environment variable or use defaults
 allowed_origins = os.getenv("FRONTEND_URL", "http://localhost:5173").split(",")
-# Add common development origins
-allowed_origins.extend(["http://localhost:5173", "http://localhost:3000"])
+# Add production and development origins
+allowed_origins.extend([
+    "http://localhost:5173", 
+    "http://localhost:3000",
+    "https://molecule-x.vercel.app",
+    "https://molecule-x.vercel.app/"
+])
 
 app.add_middleware(
     CORSMiddleware,
