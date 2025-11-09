@@ -117,14 +117,13 @@ function App() {
         if (data.status === 'completed') {
           clearInterval(interval)
           setStatus('completed')
-            setIsProcessing(false)
-            // Automatically fetch results when completed
-            await fetchResults(jId)
-          } else if (data.status === 'failed') {
-            clearInterval(interval)
-            setStatus('failed')
-            setIsProcessing(false)
-          }
+          setIsProcessing(false)
+          // Automatically fetch results when completed
+          await fetchResults(jId)
+        } else if (data.status === 'failed') {
+          clearInterval(interval)
+          setStatus('failed')
+          setIsProcessing(false)
         }
       } catch (error) {
         console.error('Error polling progress:', error)
